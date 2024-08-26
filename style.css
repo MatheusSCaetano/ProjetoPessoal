@@ -1,0 +1,52 @@
+.menu {
+    width: 100%;
+    display: flex;
+}
+
+.logo-menu {
+    width: 50%;
+}
+
+.itens-menu {
+    width: 50%;
+    text-align: right;
+
+}
+
+.itens-menu a {
+    text-decoration: none;
+    padding: 0 10;
+    font-size: 20;
+    font-weight: bolder;
+    
+}
+
+.cadastro-usuario {
+text-align: center;
+}
+
+.formulario-cadastro {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario-cadastro input {
+    border-radius: 5px;
+    padding: 4 100;
+    display: block;
+    margin: 5px auto ;
+    text-align: center;
+}
+.formulario-cadastro input[type ="submit"]{
+    border-radius: 5px;
+    padding: 4 50;
+    display: block;
+    margin: 5px auto ;
+    text-align: center;
+}
+.input{
+padding: 5;
+width: 100%;
+}
